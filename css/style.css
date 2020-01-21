@@ -232,6 +232,35 @@ p {
   margin-right: 20px;
   border-radius: 50%;
 }
+
+/* cantact form */
+
+#cantact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#cantact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#cantact-form input,
+#cantact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#cantact-form textarea {
+  height: 200px;
+}
+
+#cantact-form textarea:focus,
+#cantact-form input:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
 /* Footer Section */
 #main-footer {
   background: #444;
